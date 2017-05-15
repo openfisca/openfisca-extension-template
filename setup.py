@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Openfisca-MA_COLLECTIVITE",
+    name="OpenFisca-Extension-Template",
     version="1.0.0",
     description="Plugin OpenFisca pour les aides sociales de ma collectivité",
     license="http://www.fsf.org/licensing/licenses/agpl-3.0.html",
