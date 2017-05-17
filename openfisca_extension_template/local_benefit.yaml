@@ -13,7 +13,7 @@
   - id: "child2"
     age: 4
   output_variables:
-    paris_child_allowance: 200
+    local_town_child_allowance: 200
 
 - name: "A couple with no child gets nothing"
   period: 2016-01
@@ -25,5 +25,5 @@
   - id: "parent2"
     age: 35
   output_variables:
-    paris_child_allowance: 0
+    local_town_child_allowance: 0
 

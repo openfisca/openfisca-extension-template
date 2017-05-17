@@ -7,7 +7,7 @@ from openfisca_core.model_api import *
 from openfisca_country_template.entities import *
 
 
-class paris_child_allowance(Variable):
+class local_town_child_allowance(Variable):
     column = FloatCol
     entity = Household
     definition_period = MONTH
@@ -15,6 +15,6 @@ class paris_child_allowance(Variable):
 
     def function(famille, period, legislation):
         nb_children = famille.nb_persons(role = Household.CHILD)
-        amount_by_child = legislation(period).paris.child_allowance.amount
+        amount_by_child = legislation(period).local_town.child_allowance.amount
 
         return nb_children * amount_by_child

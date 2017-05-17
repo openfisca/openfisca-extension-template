@@ -1,4 +1,4 @@
-<NODE code="paris" description="Local town social benefits">
+<NODE code="local_town" description="Local town social benefits">
   <NODE code="child_allowance" description="Child allowance social benefit">
     <CODE code="amount" description="Amount by child" format="float" type="monetary">
       <VALUE deb="2014-01-01" valeur="100" />
