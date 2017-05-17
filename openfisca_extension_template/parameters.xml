@@ -1,7 +1,7 @@
-<NODE code="ma_collectivite" description="Aides de ma collectivité">
-  <NODE code="mon_aide" description="Ma première aide">
-    <CODE code="montant" description="Montant de l'aide" format="float" type="monetary">
-      <VALUE deb="2014-01-01" fin="2018-12-31" valeur="100" />
+<NODE code="local_town" description="Local town social benefits">
+  <NODE code="child_allowance" description="Child allowance social benefit">
+    <CODE code="amount" description="Amount by child (in euros)" format="float" type="monetary">
+      <VALUE deb="2014-01-01" valeur="100" />
     </CODE>
   </NODE>
 </NODE>

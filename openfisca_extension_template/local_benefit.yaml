@@ -1,0 +1,29 @@
+- name: "A couple with 2 children gets 200€"
+  period: 2016-01
+  households:
+    parents: ["parent1", "parent2"]
+    children: ["child1", "child2"]
+  persons:
+  - id: "parent1"
+    age: 35
+  - id: "parent2"
+    age: 35
+  - id: "child1"
+    age: 8
+  - id: "child2"
+    age: 4
+  output_variables:
+    local_town_child_allowance: 200
+
+- name: "A couple with no child gets nothing"
+  period: 2016-01
+  households:
+    parents: ["parent1", "parent2"]
+  persons:
+  - id: "parent1"
+    age: 35
+  - id: "parent2"
+    age: 35
+  output_variables:
+    local_town_child_allowance: 0
+
