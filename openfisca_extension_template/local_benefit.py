@@ -11,7 +11,7 @@ class paris_child_allowance(Variable):
     column = FloatCol
     entity = Household
     definition_period = MONTH
-    label = u"Local benefit : a fixed amount by child each month"
+    label = u"Local benefit: a fixed amount by child each month"
 
     def function(famille, period, legislation):
         nb_children = famille.nb_persons(role = Household.CHILD)
