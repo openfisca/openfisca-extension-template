@@ -1,5 +1,5 @@
-<NODE code="paris" description="Aides de ma collectivité">
-  <NODE code="child_allowance" description="Ma première aide">
+<NODE code="paris" description="Local town social benefits">
+  <NODE code="child_allowance" description="Child allowance social benefit">
     <CODE code="amount" description="Amount by child" format="float" type="monetary">
       <VALUE deb="2014-01-01" valeur="100" />
     </CODE>
