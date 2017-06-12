@@ -13,7 +13,7 @@ class local_town_child_allowance(Variable):
     definition_period = MONTH
     label = u"Local benefit: a fixed amount by child each month"
 
-    def function(famille, period, legislation):
+    def formula(famille, period, legislation):
         nb_children = famille.nb_persons(role = Household.CHILD)
         amount_by_child = legislation(period).local_town.child_allowance.amount
 
