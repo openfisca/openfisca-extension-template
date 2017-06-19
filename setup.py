@@ -12,6 +12,11 @@ setup(
     install_requires = [
         'OpenFisca-Country-Template >= 1.2.0,  < 2.0',
         ],
+    extras_require = {
+        'test': [
+            'nose',
+            ]
+        },
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
