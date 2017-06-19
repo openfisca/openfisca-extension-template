@@ -9,7 +9,9 @@ setup(
     author="",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[],
+    install_requires = [
+        'OpenFisca-Country-Template >= 1.2.0,  < 2.0',
+        ],
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
