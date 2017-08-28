@@ -1,1 +1,0 @@
-openfisca-run-test */*.yaml
