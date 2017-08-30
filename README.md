@@ -1,6 +1,6 @@
 # OpenFisca Extension-Template
 
-This repository is here to help you bootstrap your own OpenFisca [extension](https://doc.openfisca.fr/contribute/extensions.html) package.
+This repository is here to help you bootstrap your own OpenFisca [extension](http://openfisca.org/doc/contribute/extensions.html) package.
 
 ## Installing
 
@@ -20,6 +20,6 @@ You can make sure that everything is working by running the provided tests:
 make test
 ```
 
-> [Learn more about tests](https://doc.openfisca.fr/coding-the-legislation/writing_yaml_tests.html).
+> [Learn more about tests](http://openfisca.org/doc/coding-the-legislation/writing_yaml_tests.html).
 
 Your extension package is now installed and ready!
