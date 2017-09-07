@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 2.7.12  # this specific version is preinstalled on the CI servers and allows faster builds
+
+dependencies:
+  override:
+    - pip install --upgrade pip wheel  # pip >= 8.0 needed to be compatible with "manylinux" wheels, used by numpy >= 1.11
+    - pip install .[test] --upgrade
+test:
+  override:
+    - make test
