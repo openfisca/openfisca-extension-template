@@ -8,7 +8,7 @@ from openfisca_country_template.entities import *
 
 
 class local_town_child_allowance(Variable):
-    column = FloatCol
+    value_type = float
     entity = Household
     definition_period = MONTH
     label = u"Local benefit: a fixed amount by child each month"
