@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.1.4 - [#13](https://github.com/openfisca/extension-template/pull/13)
+
+* Declare package compatible with OpenFisca Country Template v3
+
 ## 1.1.3 - [#8](https://github.com/openfisca/extension-template/pull/8)
 
 * Technical improvement: 
