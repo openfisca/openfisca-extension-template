@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="OpenFisca-Extension-Template",
-    version="1.1.4",
+    version="1.1.5",
     description="An OpenFisca extension that adds some variables to an already-existing tax and benefit system",
     license="http://www.fsf.org/licensing/licenses/agpl-3.0.html",
     author="",
