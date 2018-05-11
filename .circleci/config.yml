@@ -111,4 +111,4 @@ workflows:
             - tests
           filters:
             branches:
-              only: master
+              only: deploy-9
