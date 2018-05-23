@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.1.6 - [#15](https://github.com/openfisca/extension-template/pull/15)
+
+_Note: the 1.1.5 version has been unpublished as it was used for test analysis_
+
+* Add continuous deployment with CircleCI, triggered by a merge to `master` branch
+
 ### 1.1.4 - [#13](https://github.com/openfisca/extension-template/pull/13)
 
 * Declare package compatible with OpenFisca Country Template v3
