@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.1.7 - [#16](https://github.com/openfisca/extension-template/pull/16)
+
+* Technical change
+* Details:
+  - Tests library against its packaged version
+  - By doing so, we prevent some hideous bugs
+
 ### 1.1.6 - [#15](https://github.com/openfisca/extension-template/pull/15)
 
 _Note: the 1.1.5 version has been unpublished as it was used for test analysis_
@@ -12,13 +19,13 @@ _Note: the 1.1.5 version has been unpublished as it was used for test analysis_
 
 ## 1.1.3 - [#8](https://github.com/openfisca/extension-template/pull/8)
 
-* Technical improvement: 
+* Technical improvement:
 * Details:
   - Adapt to version `21.0.0` of Openfisca-Core and version `2.1.0` of Country-Template
 
 ## 1.1.2 - [#7](https://github.com/openfisca/extension-template/pull/7)
 
-* Technical improvement: 
+* Technical improvement:
 * Details:
   - Adapt to version `20.0.0` of Openfisca-Core and version `1.4.0` of Country-Template
 
