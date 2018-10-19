@@ -2,9 +2,8 @@ version: 2
 
 jobs:
   checkout:
-    working_directory: ~/extension-template
     docker:
-      - image: circleci/python:2.7-jessie
+      - image: python:2.7.15
 
     steps:
       - checkout
@@ -20,9 +19,8 @@ jobs:
             - ~/.ssh/known_hosts
 
   dependencies:
-    working_directory: ~/extension-template
     docker:
-      - image: circleci/python:2.7-jessie
+      - image: python:2.7.15
 
     steps:
       - restore_cache:
@@ -40,18 +38,17 @@ jobs:
           name: Install dependencies
           command: |
             . /tmp/venv/extension-template/bin/activate
-            pip install --upgrade pip wheel twine
-            pip install .[test] --upgrade
+            make build
 
       - save_cache:
           key: v1-dependencies-{{ .Environment.CIRCLE_SHA1 }}
           paths:
             - /tmp/venv/extension-template
+            - dist
 
   tests:
-    working_directory: ~/extension-template
     docker:
-      - image: circleci/python:2.7-jessie
+      - image: python:2.7.15
 
     steps:
       - restore_cache:
@@ -70,9 +67,8 @@ jobs:
             . check-version-bump.sh
 
   deploy:
-    working_directory: ~/extension-template
     docker:
-      - image: circleci/python:2.7-jessie
+      - image: python:2.7.15
         environment:
           PYPI_USERNAME: openfisca-bot
           # PYPI_PASSWORD: this value is set in CircleCI's web interface; do not set it here, it is a secret!
