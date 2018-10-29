@@ -9,7 +9,7 @@ This repository is here to help you bootstrap your own OpenFisca [extension](htt
 To install your extension, run:
 
 ```sh
-pip install --editable ".[test]"  # must be executed from the directory containing the setup.py file
+make install
 ```
 
 ## Testing
