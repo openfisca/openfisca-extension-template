@@ -1,11 +1,13 @@
 # Changelog
 
-### 1.1.7 - [#16](https://github.com/openfisca/extension-template/pull/16)
+### 1.1.8 - [#16](https://github.com/openfisca/extension-template/pull/16) [#17](https://github.com/openfisca/extension-template/pull/17)
 
 * Technical change
 * Details:
   - Tests library against its packaged version
   - By doing so, we prevent some hideous bugs
+
+> Note: Version `1.1.7` has been unpublished as it accidentally introduced a bug. Please use version `1.1.8` or more recent.
 
 ### 1.1.6 - [#15](https://github.com/openfisca/extension-template/pull/15)
 
