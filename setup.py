@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="OpenFisca-Extension-Template",
-    version="1.1.8",
+    version="1.1.8.dev0",
     author="OpenFisca Team",
     author_email = 'contact@openfisca.org',
     classifiers=[
