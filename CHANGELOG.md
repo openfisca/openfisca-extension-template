@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.2.0 - [#18](https://github.com/openfisca/extension-template/pull/18)
+
+* Technical change
+* Details:
+  - Adapt to Core v25
+
 ### 1.1.7 - [#16](https://github.com/openfisca/extension-template/pull/16)
 
 * Technical change
