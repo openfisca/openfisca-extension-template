@@ -113,7 +113,7 @@ jobs:
             git fetch
             .circleci/is-version-number-acceptable.sh
 
-  deploy_python3:
+  deploy:
     docker:
       - image: python:3.7
     environment:
@@ -156,7 +156,7 @@ workflows:
           filters:
             branches:
               only: master
-      - deploy_python3:
+      - deploy:
           requires:
             - build_python2
             - build
