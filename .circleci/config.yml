@@ -70,10 +70,6 @@ jobs:
             source /tmp/venv/extension_template/bin/activate
             twine upload dist/* --username $PYPI_USERNAME --password $PYPI_PASSWORD
 
-      - run:
-          name: Publish a git tag
-          command: .circleci/publish-git-tag.sh
-
   build:
     docker:
       - image: python:3.7
@@ -142,6 +138,10 @@ jobs:
           command: |
             source /tmp/venv/extension_template/bin/activate
             twine upload dist/* --username $PYPI_USERNAME --password $PYPI_PASSWORD
+
+      - run:
+          name: Publish a git tag
+          command: .circleci/publish-git-tag.sh
 
 workflows:
   version: 2
