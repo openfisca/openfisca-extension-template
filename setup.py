@@ -22,7 +22,7 @@ setup(
         ("share/openfisca/openfisca-extension-template", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
-        "OpenFisca-Country-Template >= 3.6.0,  < 4",
+        "OpenFisca-Country-Template >= 3.8.0,  < 4",
         ],
     extras_require = {
         "dev": [
