@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.0
+
+* Technical change
+* Details:
+  - Remove Python 2 build and deploy on continuous integration
+  - Update test command
+  - Update `country-template` dependency (uses Core v27)
+
+
 ### 1.2.0 - [#18](https://github.com/openfisca/extension-template/pull/18)
 
 * Technical change
