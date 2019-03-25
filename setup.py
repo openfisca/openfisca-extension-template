@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="OpenFisca-Extension-Template",
-    version="1.2.0",
+    version="1.3.0",
     author="OpenFisca Team",
     author_email = 'contact@openfisca.org',
     classifiers=[
@@ -22,7 +22,7 @@ setup(
         ("share/openfisca/openfisca-extension-template", ["CHANGELOG.md", "LICENSE", "README.md"]),
         ],
     install_requires = [
-        "OpenFisca-Country-Template >= 3.6.0,  < 4",
+        "OpenFisca-Country-Template >= 3.8.0,  < 4",
         ],
     extras_require = {
         "dev": [
