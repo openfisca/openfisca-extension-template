@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.1 - [#22](https://github.com/openfisca/extension-template/pull/22)
+
+* Technical change
+* Details:
+  - Update `flake8`, `autopep8` and `pycodestyle`
+
 ## 1.3.0
 
 * Technical change
