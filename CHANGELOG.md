@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.3.3 - [#25](https://github.com/openfisca/extension-template/pull/25)
+
+* Technical change
+* Details:
+  - Upgrade `autopep8`
+
 ### 1.3.2 - [#24](https://github.com/openfisca/extension-template/pull/24)
 
 * Technical change
