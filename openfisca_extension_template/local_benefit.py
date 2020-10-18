@@ -7,10 +7,9 @@ See https://openfisca.org/doc/key-concepts/variables.html
 """
 
 # Import from openfisca-core the Python objects used to code the legislation in OpenFisca
+# Import the entities specifically defined for this tax and benefit system
 from openfisca_core.periods import MONTH
 from openfisca_core.variables import Variable
-
-# Import the entities specifically defined for this tax and benefit system
 from openfisca_country_template.entities import Household
 
 
@@ -18,7 +17,7 @@ class local_town_child_allowance(Variable):
     value_type = float
     entity = Household
     definition_period = MONTH
-    label = u"Local benefit: a fixed amount by child each month"
+    label = "Local benefit: a fixed amount by child each month"
 
     def formula(famille, period, parameters):
         """

@@ -1,10 +1,10 @@
-"""This file contains your country package's metadata and dependencies."""
+"""This file contains your extension package's metadata and dependencies."""
 
 from setuptools import find_packages, setup
 
 setup(
     name = "OpenFisca-Extension-Template",
-    version = "1.3.4",
+    version = "1.3.5",
     author = "OpenFisca Team",
     author_email = "contact@openfisca.org",
     classifiers = [

@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.3.5 - [#32](https://github.com/openfisca/extension-template/pull/32)
+
+* Technical improvement.
+* Impacted areas: `**/*`
+* Details:
+  - Make style checks stricter and clearer to help country package developers get started
+
 ### 1.3.4 - [#28](https://github.com/openfisca/extension-template/pull/28)
 
 * Minor change.
