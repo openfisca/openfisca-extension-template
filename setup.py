@@ -6,7 +6,7 @@ setup(
     name = "OpenFisca-Extension-Template",
     version = "1.3.4",
     author = "OpenFisca Team",
-    author_email = 'contact@openfisca.org',
+    author_email = "contact@openfisca.org",
     classifiers = [
         "Development Status :: 5 - Production/Stable",
         "License :: OSI Approved :: GNU Affero General Public License v3",
@@ -15,7 +15,7 @@ setup(
         "Topic :: Scientific/Engineering :: Information Analysis",
         ],
     description = "An OpenFisca extension that adds some variables to an already-existing tax and benefit system",
-    keywords = 'benefit microsimulation social tax',
+    keywords = "benefit microsimulation social tax",
     license = "http://www.fsf.org/licensing/licenses/agpl-3.0.html",
     url = "https://github.com/openfisca/extension-template",
     include_package_data = True,  # Will read MANIFEST.in
