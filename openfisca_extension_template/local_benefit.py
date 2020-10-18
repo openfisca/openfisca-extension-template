@@ -8,10 +8,12 @@ See https://openfisca.org/doc/key-concepts/variables.html
 
 from __future__ import division
 
-# Import from openfisca-core the common python objects used to code the legislation in OpenFisca
-from openfisca_core.model_api import *
+# Import from openfisca-core the Python objects used to code the legislation in OpenFisca
+from openfisca_core.periods import MONTH
+from openfisca_core.variables import Variable
+
 # Import the entities specifically defined for this tax and benefit system
-from openfisca_country_template.entities import *
+from openfisca_country_template.entities import Household
 
 
 class local_town_child_allowance(Variable):
