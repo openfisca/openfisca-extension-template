@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from __future__ import division
 
 # Import from openfisca-core the common python objects used to code the legislation in OpenFisca
