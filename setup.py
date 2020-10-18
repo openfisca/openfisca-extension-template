@@ -1,3 +1,5 @@
+"""This file contains your country package's metadata and dependencies."""
+
 from setuptools import setup, find_packages
 
 setup(

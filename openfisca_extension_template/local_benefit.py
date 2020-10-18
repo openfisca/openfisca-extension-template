@@ -1,3 +1,11 @@
+"""
+This file defines an additional variable for the modelled legislation.
+
+A variable is a property of an Entity such as a Person, a Household…
+
+See https://openfisca.org/doc/key-concepts/variables.html
+"""
+
 from __future__ import division
 
 # Import from openfisca-core the common python objects used to code the legislation in OpenFisca
