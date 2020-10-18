@@ -21,6 +21,12 @@ class local_town_child_allowance(Variable):
     label = u"Local benefit: a fixed amount by child each month"
 
     def formula(famille, period, parameters):
+        """
+        Local benefit.
+
+        Extensions can only add variables and parameters to the tax and benefit
+        system: they cannot modify or neutralize existing ones.
+        """
         nb_children = famille.nb_persons(role = Household.CHILD)
         amount_by_child = parameters(period).local_town.child_allowance.amount
 
