@@ -6,8 +6,6 @@ A variable is a property of an Entity such as a Person, a Household…
 See https://openfisca.org/doc/key-concepts/variables.html
 """
 
-from __future__ import division
-
 # Import from openfisca-core the Python objects used to code the legislation in OpenFisca
 from openfisca_core.periods import MONTH
 from openfisca_core.variables import Variable
