@@ -28,7 +28,7 @@ setup(
         "dev": [
             "autopep8 >= 1.5.4, < 2.0.0",
             "flake8 >= 3.8.0, < 4.0.0",
-            "flake8-print >= 3.1.0, < 4.0.0",
+            "flake8-print >= 3.1.0, < 5.0.0",
             "pycodestyle >= 2.6.0, < 3.0.0",
             ]
         },
